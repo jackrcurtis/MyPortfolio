@@ -1,0 +1,82 @@
+@charset "utf-8";
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.welcome-text{
+	text-align: center;	
+}
+
+.welcome_page {
+    /* Full height */
+    height: 100%;
+    background-color: antiquewhite;
+}
+.welcome-container {
+	padding-top:9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+.welcome-container {
+    font-size: 7rem;
+    padding-top: 0%;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    overflow: hidden;
+}
+.welcome-container span.typed-text {
+    font-weight: normal;
+    color: #533E85;
+}
+.welcome-container span.cursor {
+    display: inline-block;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+}
+.welcome-container span.cursor.typing {
+    animation: none;
+}
+@keyframes blink {
+    0% {
+        background-color: #ccc;
+    }
+    49% {
+        background-color: #ccc;
+    }
+    50% {
+        background-color: transparent;
+    }
+    99% {
+        background-color: transparent;
+    }
+    100% {
+        background-color: #ccc;
+    }
+}
+
+
+.skills-page {
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #92A9BD;
+}
+
+
+.portfolio-page {
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #B1D0E0;
+}
