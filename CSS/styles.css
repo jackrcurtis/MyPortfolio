@@ -3,34 +3,39 @@ body, html {
     height: 100%;
     margin: 0;
 }
-
-.welcome-text{
-	text-align: center;	
+.welcome-text {
+    margin-left: 15%;
 }
-
 .welcome_page {
     /* Full height */
     height: 100%;
     background-color: whitesmokes;
 }
-.welcome-container {
-<<<<<<< Updated upstream
-	margin-top:10%;
-=======
->>>>>>> Stashed changes
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Roboto', sans-serif;
-	font-size: 7rem;
-    padding-top: 12.5%;
-	padding-bottom: 1.5%;
-    font-weight: bold;
-    letter-spacing: 0.1rem;
-    text-align: center;
-    overflow: hidden;
+.welcome-icon-row{
+	margin-top: 1%;
+	text-align: left;
+	margin-left: 15%;
+	font-size: 40px;
+}
+#icon-github{
+	margin-left: 10px;
+}
+#icon-linkedin{
+	margin-left: 10px;
 }
 
+.welcome-container {
+    padding-top: 15%;
+    margin-left: 15%;
+    display: flex;
+    align-items: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-align: left;
+    overflow: hidden;
+}
 .welcome-container span.typed-text {
     font-weight: normal;
     color: #533E85;
@@ -44,7 +49,6 @@ body, html {
 .welcome-container span.cursor.typing {
     animation: none;
 }
-
 @keyframes blink {
     0% {
         background-color: #ccc;
@@ -62,8 +66,6 @@ body, html {
         background-color: #ccc;
     }
 }
-
-
 .skills-page {
     /* Full height */
     height: 100%;
@@ -73,8 +75,6 @@ body, html {
     background-size: cover;
     background-color: #92A9BD;
 }
-
-
 .portfolio-page {
     /* Full height */
     height: 100%;
