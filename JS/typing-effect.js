@@ -2,7 +2,7 @@
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["Welcome", "Welkom","Croeso", "Ласкаво просимо", "Bienvenidos", "Üdvözöljük", "خۇش كەپسىز"];
+const textArray = ["Welcome!", "Welkom!", "Croeso!", "Ласкаво просимо!", "¡Bienvenidos!", "Üdvözöljük!", "أهلا بك"];
 const typingDelay = 200;	//typing speed
 const erasingDelay = 100;	//Speed of removing current text
 const newTextDelay = 1500; 	// Delay between current and next text

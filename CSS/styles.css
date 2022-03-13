@@ -14,20 +14,23 @@ body, html {
     background-color: whitesmokes;
 }
 .welcome-container {
+<<<<<<< Updated upstream
 	margin-top:10%;
+=======
+>>>>>>> Stashed changes
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Roboto', sans-serif;
-}
-.welcome-container {
-    font-size: 7rem;
-    padding-top: 0%;
+	font-size: 7rem;
+    padding-top: 12.5%;
+	padding-bottom: 1.5%;
     font-weight: bold;
     letter-spacing: 0.1rem;
     text-align: center;
     overflow: hidden;
 }
+
 .welcome-container span.typed-text {
     font-weight: normal;
     color: #533E85;
@@ -41,6 +44,7 @@ body, html {
 .welcome-container span.cursor.typing {
     animation: none;
 }
+
 @keyframes blink {
     0% {
         background-color: #ccc;
