@@ -25,13 +25,13 @@
       <div class="welcome-container"> <span class="typed-text"></span><span class="cursor">&nbsp;</span> </div>
       <div class = "welcome-text">
         <h1>I'm Jack,</h1>
-        <h3>An Application Developer from South Wales</h3>
-		<h3>Welcome to my portfolio</h3>
+        <h3>An Applications Developer from South Wales.</h3>
+		<h3>Welcome to my portfolio!</h3>
       </div>
 		<div class="welcome-icon-row"> 
-		<a href="https://twi"> <i id= "icon-twitter" class="fa-brands fa-twitter"></i></a>
+		<a href="https://twitter.com/j_rcurtis"> <i id= "icon-twitter" class="fa-brands fa-twitter"></i></a>
 		<a href="https://github.com/jackrcurtis"> <i id = "icon-github" class="fa-brands fa-github"></i></a>
-		<a href="your link here"> <i id = "icon-linkedin" class="fa-brands fa-linkedin"></i></a>
+		<a href="https://www.linkedin.com/in/jack-robert-curtis-bsc-hons-89b9a1124/"> <i id = "icon-linkedin" class="fa-brands fa-linkedin"></i></a>
        </div>
     </div>
 </section>
@@ -39,23 +39,74 @@
 	
 	
     
-	<div class = "skills-page">
-	<h1 id = "key-skills-title">Key Skills</h1>
+<div class = "skills-page">
+	<div class="col-md-6 col-sm-12">
+   		<div class="html-skill-bar">
+ 			<div class=" html-skill-bar-progress"></div>
+		</div>
+  	</div>
+  	<div class="col-md-6 col-sm-12">
+   		<div class="css-skill-bar">
+ 			<div class="css-skill-bar-progress"></div>
+		</div>
+  	</div>
+
 	
 	
+<!--
+	<script>
+	const observer = new IntersectionObserver(entries => {
+  // Loop over the entries
+  entries.forEach(entry => {
+    // If the element is visible
+    if (entry.isIntersecting) {
+      // Add the animation class
+      entry.target.classList.add('square-animation');
+    }
+  });
+});
+
+observer.observe(document.querySelector('.css-skill-bar'));
+	</script>
+-->
 	
 	
+</div>
+	
+	<div class = "portfolio-page">Portfolio
+	
+	 <div class="contnair">
+        <button onclick="topFunction()" id = "myBtn">Contact Us</button>
+    </div>
+
+    <div class="popUp">
+
+        <form>
+            <label for="fn">First Name</label>
+            <input type="text" name="fn">
+            <label for="ln">Last Name</label>
+            <input type="text" name="ln">
+            <label for="email">Email</label>
+            <input type="email" name="email">
+            <label for="notes">Comments</label>
+          <textarea name="notes" rows="5" cols="5"></textarea>
+            <input id="submit" type="submit" value="Submit">
+        </form>
+    </div>
 	
 	
 	
 	</div>
+	   
+   
 	
-	<div class = "portfolio-page">Portfolio</div>
+	
 	
 </body>
 	
 	
 <!--JavaScipts	-->
+<script src="JS/contact-button.js"></script>	
 <!--JQUERY -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>	
 <!-- Font Awesome -->	
